@@ -1,0 +1,28 @@
+@media screen and (min-width: 767px) {
+    .contents{
+        display: none;
+    }
+    .contents{
+        float: none;
+    }
+    .contents{
+        max-width: 1000px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 479px) {
+    .contents{
+        display: none;
+    }
+    .contents{
+        float: none;
+    }
+    .contents{
+        max-width: 1000px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
