@@ -1,15 +1,38 @@
 
 @media screen and (max-width: 479px) {
-    .contents{
-        display: none;
-    }
-    .contents{
-        float: none;
-    }
-    .content{
-        max-width: 1000px;
+    .content {
+        max-width:200px; 
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    .header{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .white{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+    .right-box{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
+

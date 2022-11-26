@@ -1,8 +1,4 @@
-.clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
-}
+
 
 .content{
     width: 400px;
@@ -13,58 +9,71 @@
     height: 100px;
     background-color: #141f40;
 }
-.boxes{
+.white{
     width: 160px;
     height: 60px;
     background-color: white;
     position: absolute;
     top: 25px;
-    left: 220px;
+    left: 220px; 
+    align-items: center;
+}
+.boxes{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    display: flex;
+    justify-content: space-between;
 }
 .box1{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    border: 10px solid white;
-    float: left;
 }
 .box2{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    border-left: 0 solid white;
-    border-top: 10px solid white;
-    float: left;
+    
 }
 .box3{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    border-right: 10px solid white;
-    border-top: 10px solid white;
-    float: right;
+    
+}
+.main{
+    display: flex;
 }
 .left{
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
-    float: left;
+   
 }
 .right{
     width: 250px;
     height: 250px;
     background-color: #8c2727;
-    float: left;
+    position: relative;
+    
 }
+.right-box{
+    width: 150px;
+    height: 170px;
+    
+    position: absolute;
+    top: 40px;
+    left: 40px; 
 
+}
 .box4{ 
     width: 140px;
     height: 40px;
     background-color: #ff863f;
     border: 5px solid white;
-    position: absolute;
-    top: 140px;
-    left: 190px;
 }
 .box5{ 
     width: 140px;
@@ -72,8 +81,7 @@
     background-color: #ff863f;
     border: 5px solid white;
     position: absolute;
-    top: 200px;
-    left: 190px;
+    top: 60px;
 }
 .box6{ 
     width: 140px;
@@ -81,10 +89,10 @@
     background-color: #ff863f;
     border: 5px solid white;
     position: absolute;
-    left: 190px;
-    top: 260px;
+    bottom: 0;
 }
 .footer{
     height: 100px;
+    width: 100%;
     background-color: #d98d30;
 }
